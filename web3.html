@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link data-require="fontawesome@5.5.0" data-semver="5.5.0" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="faq-style.css" />
+    <script src="faq-script.js"></script>
+    <title>Full Stack Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <style>
+        .logo{
+          border-radius: 25px;
+        }
+        .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mySlides {display: none;}
+    </style>
+</head>
+<body>
+    <!-- Menu -->
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <!-- <svg xmlns="cc.svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg> -->
+          <img src="Copy of Copy of Copy of career corps - logo.png" height="100px" width="100px" class="logo">
+          <span class="ml-3 text-3xl">Career <font color="#ffb000">Corps</font></span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
+          <a class="mr-5 hover:text-gray-900" href="index.html">Career Programs</a>
+    
+          <a class="mr-5 hover:text-gray-900" href="index.html">About Us</a>
+          <a class="mr-5 hover:text-gray-900" href="index.html">Why Us</a>
+        
+          <a class="mr-5 hover:text-gray-900" href="index.html">Contact Us</a>
+        </nav>
+        <a href="index.html"><button class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">Register Now⚡
+          
+          </svg></a>
+        </button>
+      </div>
+    </header>
+      <!-- program tile -->
+      <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="lg:w-4/5 mx-auto flex flex-wrap">
+            <img alt="MERN" class="lg:w-1/2 w-full lg:h-auto h-64  object-center " src="web3-icon.svg">
+            <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <h2 class="text-sm title-font text-gray-500 tracking-widest">Career Corps</h2>
+              <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">Blockchain Development Program</h1>
+              <!-- <div class="flex mb-4">
+                <span class="flex items-center">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-yellow-500" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                  <span class="text-gray-600 ml-3">n Reviews</span>
+                </span>
+                <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+                  <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div> -->
+              <!-- <h2 class="text-sm title-font text-gray-500 tracking-widest">program Details</h2> -->
+              <br>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>MERN Stack
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>Study at your own pace
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>8+ hands-on projects
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>100% placement guarantee*
+              </p>   
+              <p class="leading-relaxed">
+                Ready to become a master of the web? Our Full Stack Web Development program has got you covered! Join us now and unlock the skills to build dynamic and engaging websites. Don't miss out on this opportunity to launch your career in tech - enroll today! 
+                 </p>
+              <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+                <!-- <div class="flex">
+                  <span class="mr-3">Color</span>
+                  <button class="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
+                  <button class="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
+                  <button class="border-2 border-gray-300 ml-1 bg-yellow-500 rounded-full w-6 h-6 focus:outline-none"></button>
+                </div> -->
+                <div class="flex ml-6 items-center">
+                  <!-- <span class="mr-3">Level</span> -->
+                  <div class="relative">
+                    <!-- <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-200 focus:border-yellow-500 text-base pl-3 pr-10">
+                      <option>Beginner</option>
+                      <option>Beginner to Advance</option>
+                      <option>Advance</option>
+                      <option>Expert</option>
+                    </select> -->
+                    <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                      <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                        <path d="M6 9l6 6 6-6"></path>
+                      </svg> -->
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex">
+                <!-- <span class="title-font font-medium text-2xl text-gray-900">₹9,749</span> -->
+                <span class="title-font font-medium text-2xl text-gray-900" style="padding: 0px 0px 0px 10px;" >₹12,999</span>
+                <!-- <span style="padding: 7px 0px 0px 7px;" class="mr-24">25% off</span> -->
+                <a href="https://buy.stripe.com/6oE7wg4Urfi67aodQQ" class="ml-4">
+                <button class="flex ml-auto text-white bg-yellow-500 border-0 py-2 px-48 focus:outline-none hover:bg-yellow-600 rounded " >Enroll</button></a>
+                <!-- <button class="w-20 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4" id="shareBtn">Share
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+                  </svg>
+                </button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <section class="text-gray-600 body-font modal" id="myModal">
+           
+            <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 modal-content">
+              <span class="close">&times;</span>
+              <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Experience a guaranteed Success of placements Career Corps🚀</h2>
+              <div class="relative mb-4">
+                <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+                <input type="text" id="full-name" name="full-name" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <div class="relative mb-4">
+                <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <div class="relative mb-4">
+                <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <div class="relative mb-4">
+                <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <div class="relative mb-4">
+                <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <a href="https://buy.stripe.com/test_dR63dl9CYbmm3yo8wx"><button class="text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">Pay</button></a>
+              <p class="text-xs text-gray-500 mt-3">Experience a guaranteed Success of placement🚀</p>
+            </div>
+            
+          </div>
+        </section>  -->
+      </section>
+      <!-- Steps of program -->
+      <section class="text-gray-600 body-font ">
+        <h1 class="text-gray-900 text-3xl title-font font-medium mb-1" style="justify-content: center; display: flex ; ">Table of Contents</h1>
+      <span class="text-gray-600 ml-3" style="justify-content: center; display: flex ; ">What will you learn?</span>
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-400 text-white relative z-10 title-font font-medium text-sm">🦄</div>
+            <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+              <div class="flex-shrink-0 w-24 h-24 bg-white-100 text-yellow-500 rounded-full inline-flex items-center justify-center">
+                <img src="fundamental.png" alt="">
+                
+              </div>
+              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Fundamentals of Web Development</h2>
+               <!-- <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-400 text-white relative z-10 title-font font-medium text-sm">👨🏻‍💼</div>
+            <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+              <div class="flex-shrink-0 w-24 h-24 bg-white-100 text-yellow-500 rounded-full inline-flex items-center justify-center">
+                <img src="front-end.png" alt="">
+              </div>
+              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Front-end Development</h2>
+               <!-- <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-400 text-white relative z-10 title-font font-medium text-sm">🩻</div>
+            <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+              <div class="flex-shrink-0 w-24 h-24 bg-white-100 text-yellow-500 rounded-full inline-flex items-center justify-center">
+                <img src="backend.png" alt="">
+              </div>
+              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Back-end Development</h2>
+               <!-- <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <!-- project 4 -->
+            <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-400 text-white relative z-10 title-font font-medium text-sm">🎯</div>
+            <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+              <div class="flex-shrink-0 w-24 h-24 bg-white-100 text-yellow-500 rounded-full inline-flex items-center justify-center">
+                <img src="deploy.png" alt="">
+
+              </div>
+              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Testing & Deployment</h2>
+               <!-- <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p> -->
+              </div>
+            </div>
+            
+          </div>
+          <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+            <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <!-- project 4 -->
+            <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-400 text-white relative z-10 title-font font-medium text-sm">🗣️</div>
+            <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+              <div class="flex-shrink-0 w-24 h-24 bg-white-100 text-yellow-500 rounded-full inline-flex items-center justify-center">
+                <img src="soft-skills.png" alt="">
+
+              </div>
+              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Soft Skills</h2>
+               <!-- <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p> -->
+              </div>
+            </div>
+            
+            
+            </div>
+            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <!-- project 4 -->
+              <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-400 text-white relative z-10 title-font font-medium text-sm">👨🏻‍💻</div>
+              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div class="flex-shrink-0 w-24 h-24 bg-white-100 text-yellow-500 rounded-full inline-flex items-center justify-center">
+                  <img src="mock.png" alt="">
+
+                </div>
+                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Mock Interviews</h2>
+                 <!-- <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p> -->
+                </div>
+              </div>
+              
+              
+              </div>
+              <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <!-- project 4 -->
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-400 text-white relative z-10 title-font font-medium text-sm">👨🏻‍🎓</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-white-100 text-yellow-500 rounded-full inline-flex items-center justify-center">
+                    <img src="placement.png" alt="">
+
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Placement</h2>
+                   <!-- <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p> -->
+                  </div>
+                </div>
+                
+                
+                </div>
+                
+                    
+                    
+                  
+
+
+          </div>
+        </div>
+      </section>
+      <!-- Tool and technologies covered -->
+      <section>
+        <div class="flex flex-col text-center w-full mb-0">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Tools & Technologies</h1>
+          
+        </div>
+        <div class="container1">
+          <ul>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="html-5.png" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">HTML5</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="css-3.png" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">CSS3</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="js.png" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">JavaScript</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="api.png" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">APIs</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="react.png" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">React</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <br>
+               <img src="react-router-mark-color.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">React Router</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="redux.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">Redux</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="express-js.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">ExpressJS</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="node-js.png" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">NodeJS</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="mongodb-icon-1.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">MongoDB</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="emmet.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">Emmets</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="visual-studio-code-1.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">VS Code</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="heroku-icon.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">Heroku</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="netlify-icon.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">Netlify</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <br>
+               <img src="hosting.png" alt="" height="200" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">Hosting</h2>
+               
+              </div>
+            </div></li>
+            <li><div ><br>
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                
+               <img src="microsoft-5.svg" alt="" height="100" width="50" class="mx-auto">
+                <h2 class="title-font font-medium text-3xl text-gray-900 text-center">Microsoft</h2>
+               
+              </div>
+            </div></li>
+          </ul>
+          <a href="#" id="prev" hidden><i class="fas fa-angle-left"></i></a>
+          <a href="#" id="next" hidden><i class="fas fa-angle-right"></i></a>
+          
+        </div>
+      </section>
+   
+ 
+      <!-- the career corps advantage -->
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">The Career Corps <font color="#ffb000">  Advantages</font></h1>
+            <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Banh mi cornhole echo park skateboard authentic crucifix neutra tilde lyft biodiesel artisan direct trade mumblecore 3 wolf moon twee</p> -->
+          </div>
+          <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <table class="table-auto w-full text-left whitespace-no-wrap">
+              <thead>
+                <tr>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Plan</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Youtube</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Bootcamps</th>
+                  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Career Corps</th>
+                  <!-- <th class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th> -->
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="px-4 py-3">Basic to Advanced</td>
+                  <td class="px-4 py-3">✖</td>
+                  <td class="px-4 py-3">✖</td>
+                  <td class="px-4 py-3 text-lg text-gray-900 bg-yellow-300">✔</td>
+                  <!-- <td class="w-10 text-center">
+                    <input name="plan" type="radio">
+                  </td> -->
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Performance Report</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">✖</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">✖</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 bg-yellow-200">✔</td>
+                  <!-- <td class="border-t-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio">
+                  </td> -->
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">Interview Opportunity</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">✖</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3">✖</td>
+                  <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900 bg-yellow-300">✔</td>
+                  <!-- <td class="border-t-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio">
+                  </td> -->
+                </tr>
+                <tr>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Soft Skills</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">✖</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">✖</td>
+                  <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900 bg-yellow-200">✔</td>
+                  <!-- <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio">
+                  </td> -->
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+            <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+          </div> -->
+        </div>
+      </section>
+      <!-- admission process -->
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-6 mx-auto">
+          <div class="flex flex-col text-center w-full mb-0">
+            <!-- <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2> -->
+            <h1 class="sm:text-5xl text-2xl font-medium title-font mb-0 text-gray-900">Admission <font color="#ffb000">Process</font></h1>
+            <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+            <br><br> </div><br><br>
+          <div class="flex flex-wrap flex flex-row  justify-center items-center">
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 mx-auto border-2 hover:border-yellow-500" style="border-radius: 15px; width: 10%; justify-content:center; display:flex;">1</h2>
+              <p class="leading-relaxed text-base m-10" style="text-align: center;">Click to Enroll</p>
+              <!-- <a class="text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a> -->
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 mx-auto border-2 hover:border-yellow-500" style="border-radius: 15px; width: 10%; justify-content:center; display:flex;">2</h2>
+              <p class="leading-relaxed text-base m-10" style="text-align: center;">Fill Details</p>
+              <!-- <a class="text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a> -->
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 mx-auto border-2 hover:border-yellow-500" style="border-radius: 15px; width: 10%; justify-content:center; display:flex;">3</h2>
+              <p class="leading-relaxed text-base m-10" style="text-align: center;">Pay to accelerate your Career</p>
+              <!-- <a class="text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a> -->
+            </div>
+            <!-- <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 mx-auto" style="border: 1px solid grey; border-radius: 15px; width: 10%; justify-content:center; display:flex;">4</h2>
+              <p class="leading-relaxed text-base mb-4" style="text-align: center;">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+              <a class="text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div> -->
+          </div>
+          <!-- <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> -->
+          <br><br></div>
+      </section>
+      <!-- Pricing -->
+
+
+      
+      <!-- Reviews -->
+      <!--
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them they are not needed in your project.
+-->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+<section class="bg-gray-100">
+  <div
+    class="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-24 lg:me-0 lg:pe-0 lg:ps-8"
+  >
+    <div
+      class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:items-center lg:gap-x-16"
+    >
+      <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">See what our
+          <br class="hidden sm:block lg:hidden" /> <br>
+          <span style="color: #ffb000;"> learners say </span>
+        </h2>
+
+        <!-- <p class="mt-4 text-gray-500">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+          veritatis illo placeat harum porro optio fugit a culpa sunt id!
+        </p> -->
+
+        <div class="hidden lg:mt-8 lg:flex lg:gap-4 ml-36">
+          <button
+            class="prev-button rounded-full border border-yellow-600 p-3 text-yellow-600 hover:bg-yellow-600 hover:text-white"
+          >
+            <span class="sr-only">Previous Slide</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-5 w-5 rtl:rotate-180"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5L8.25 12l7.5-7.5"
+              />
+            </svg>
+          </button>
+
+          <button
+            class="next-button rounded-full border border-yellow-600 p-3 text-yellow-600 hover:bg-yellow-600 hover:text-white"
+          >
+            <span class="sr-only">Next Slide</span>
+            <svg
+              class="h-5 w-5 rtl:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 5l7 7-7 7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="-mx-6 lg:col-span-2 lg:mx-0">
+        <div class="swiper-container !overflow-hidden">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <blockquote
+                class="flex h-full flex-col justify-between bg-white p-12"
+              >
+                <div>
+                  <div class="flex gap-1 text-yellow-500">
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="mt-4">
+                    <p class="text-2xl font-bold text-black-600 sm:text-3xl">
+                      Aditya Singh
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-gray-500">
+                      My web development career was launched in the ideal manner by taking the full stack web dev career program by Career Corps. I 
+developed the abilities I needed to succeed and the self-assurance to use those abilities in the 
+actual world. 
+                    </p>
+                  </div>
+                </div>
+
+                <footer class="mt-8 text-sm text-gray-500">
+                  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="h-7 w-7"
+  fill="currentColor"
+  style="color: #0077b5"
+  viewBox="0 0 24 24">
+  <path
+    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+</svg>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div class="swiper-slide">
+              <blockquote
+                class="flex h-full flex-col justify-between bg-white p-12"
+              >
+                <div>
+                  <div class="flex gap-0.5 text-yellow-500">
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="mt-4">
+                    <p class="text-2xl font-bold text-black-600 sm:text-3xl">
+                      Abhishek Singh
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-gray-500">
+                      The practical experience I obtained through this program impressed me. I was able to use 
+the knowledge I gained in practical situations, which increased my confidence in my talents as a 
+web developer.
+                    </p>
+                  </div>
+                </div>
+
+                <footer class="mt-8 text-sm text-gray-500">
+                  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="h-7 w-7"
+  fill="currentColor"
+  style="color: #0077b5"
+  viewBox="0 0 24 24">
+  <path
+    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+</svg>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div class="swiper-slide">
+              <blockquote
+                class="flex h-full flex-col justify-between bg-white p-12"
+              >
+                <div>
+                  <div class="flex gap-0.5 text-yellow-500">
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="mt-4">
+                    <p class="text-2xl font-bold text-black-600 sm:text-3xl">
+                      Adarsh Tiwari
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-gray-500">
+                      The full stack course provided me with a strong web development foundation, which was 
+essential for starting my career. Thanks to this program, I currently work as a full-time web 
+developer.
+                    </p>
+                  </div>
+                </div>
+
+                <footer class="mt-8 text-sm text-gray-500">
+                  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="h-7 w-7"
+  fill="currentColor"
+  style="color: #0077b5"
+  viewBox="0 0 24 24">
+  <path
+    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+</svg>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div class="swiper-slide">
+              <blockquote
+                class="flex h-full flex-col justify-between bg-white p-12"
+              >
+                <div>
+                  <div class="flex gap-0.5 text-yellow-500">
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="mt-4">
+                    <p class="text-2xl font-bold text-black-600 sm:text-3xl">
+                      Bipul Mukherjee
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-gray-500">
+                      I was astounded by how much practical experience I acquired in this program. I was able to 
+use the knowledge I gained to make useful web applications while working on actual projects. 
+                    </p>
+                  </div>
+                </div>
+
+                <footer class="mt-8 text-sm text-gray-500">
+                  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="h-7 w-7"
+  fill="currentColor"
+  style="color: #0077b5"
+  viewBox="0 0 24 24">
+  <path
+    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+</svg><br>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div class="swiper-slide">
+              <blockquote
+                class="flex h-full flex-col justify-between bg-white p-12"
+              >
+                <div>
+                  <div class="flex gap-0.5 text-yellow-500">
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+
+                    <svg
+                      class="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="mt-4">
+                    <p class="text-2xl font-bold text-black-600 sm:text-3xl">
+                     Suchita Soni
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-gray-500">
+                      The whole stack course completely changed my perspective. I acquired useful skills and 
+experience that enabled me to get my ideal position in web development. 
+                    </p>
+                  </div>
+                </div>
+
+                <footer class="mt-8 text-sm text-gray-500">
+                  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="h-7 w-7"
+  fill="currentColor"
+  style="color: #0077b5"
+  viewBox="0 0 24 24">
+  <path
+    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+</svg><br><br>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 flex justify-center gap-4 lg:hidden">
+      <button
+        aria-label="Previous slide"
+        class="prev-button rounded-full border border-yellow-600 p-4 text-yellow-600 hover:bg-yellow-600 hover:text-white"
+      >
+        <svg
+          class="h-5 w-5 -rotate-180 transform"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 5l7 7-7 7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+
+      <button
+        aria-label="Next slide"
+        class="next-button rounded-full border border-yellow-600 p-4 text-yellow-600 hover:bg-yellow-600 hover:text-white"
+      >
+        <svg
+          class="h-5 w-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 5l7 7-7 7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section><br><br>
+<section id="faq">
+  <div class="flex flex-col text-center w-full mb-0">
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Frequently Asked Questions</h1>
+    
+  </div>
+  <div class="container faq">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="accordions">
+            <div class="accordion-item ">
+              <div class="accordion-title" data-tab="item1">
+                <h3>What does your company do? <i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content " id="item1">
+                <p>
+                  Our company helps students land their dream job by providing them with career 
+                  guidance, job search strategies, interview preparation, a learning program, an 
+                  experienced mentor, and placement opportunity.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title" data-tab="item2">
+                <h3> How can your company help me find my dream career? <i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content" id="item2">
+                <p>
+                  We offer a variety of services that can help you with your job search, including 
+career counseling, job search strategy development, and interview preparation. 
+Our experienced career advisors work with you one-on-one to understand your 
+career goals and help you develop a personalized plan to achieve them.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title" data-tab="item3">
+                <h3>What kind of career guidance do you provide? <i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content" id="item3">
+                <p>
+                  We provide career guidance in a variety of areas, including job search strategies, 
+networking, and interview preparation. Our goal is to equip students with the 
+skills they need to succeed in their job search and achieve their career aspirations.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title" data-tab="item4">
+                <h3>Who are eligible for this program? <i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content" id="item4">
+                <p>
+                 We are available to all students, regardless of their academic background 
+or career goals. 
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-title" data-tab="item5">
+                <h3>What makes your company different from others? <i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content" id="item5">
+                <p>
+                  Our company is dedicated to helping students achieve their career goals. We offer 
+personalized support to help you develop the skills and strategies you need to 
+land your dream job. Our team of experienced career advisors has years of 
+experience in helping students succeed in achieving the dream career.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-title" data-tab="item6">
+                <h3>Free DDOS Protection <i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content" id="item6">
+                <p>
+                  Unlike other providers who charge extra for DDoS protection, All of our VPS
+                  servers comes with DDoS protection for FREE. This means you do not have to worry
+                  about your VPS performance at all. We are taking care of your needs while you do
+                  focus on your business!
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-title" data-tab="item7">
+                <h3>How can I get started?<i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content" id="item7">
+                <p>
+                  To get started, simply fill out our online contact form, and one of our career 
+advisors will be in touch with you shortly, We will schedule a consultation to 
+discuss your career goals.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-title" data-tab="item8">
+                <h3>How much time should I invest to achieve my dream career? <i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content" id="item8">
+                <p>
+                  Only 4 hours/day are enough.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-title" data-tab="item9">
+                <h3>What if I wanted to join a completely different field?  <i class="fa fa-chevron-down"></i></h3>
+              </div>
+              <div class="accordion-content" id="item9">
+                <p>
+                  It's completely okay. We used to teach from basic to advanced. 
+                </p>
+              </div>
+            </div>
+           
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.swiper-container', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 32,
+      autoplay: {
+        delay: 2000,
+      },
+      breakpoints: {
+        640: {
+          centeredSlides: true,
+          slidesPerView: 1.25,
+        },
+        1024: {
+          centeredSlides: false,
+          slidesPerView: 1.5,
+        },
+      },
+      navigation: {
+        nextEl: '.next-button',
+        prevEl: '.prev-button',
+      },
+    })
+  })
+</script>
+
+      <!-- Projects of program -->
+      <!-- <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Project Overview</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+          </div> -->
+          <!-- Project overview tile 1 main -->
+          <!-- <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-yellow-500 mb-1">Project 1</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div> -->
+            <!-- Project overview tile 2 -->
+            <!-- <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/601x361">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-yellow-500 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div> -->
+            <!-- project overview tile 3 main -->
+            <!-- <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-yellow-500 mb-1">Project 2</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div> -->
+            <!-- project overview tile 4 -->
+            <!-- <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-yellow-500 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div> -->
+            <!-- project overview tile 5 main -->
+            <!-- <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-yellow-500 mb-1">Project 3</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div> -->
+            <!-- project overview tile 6 -->
+            <!-- <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-yellow-500 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div> -->
+          <!-- </div>
+        </div>
+      </section> -->
+      <!-- FAQ -->
+      <!-- <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+            <img alt="feature" class="object-cover object-center h-full w-full" src="https://dummyimage.com/460x500">
+          </div>
+          <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+            <div class="flex flex-col mb-10 lg:items-start items-center">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+                <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                <a class="mt-3 text-yellow-500 inline-flex items-center">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col mb-10 lg:items-start items-center">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                  <circle cx="6" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                </svg>
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+                <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                <a class="mt-3 text-yellow-500 inline-flex items-center">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col mb-10 lg:items-start items-center">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+                <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                <a class="mt-3 text-yellow-500 inline-flex items-center">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- video -->
+      <!-- <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap w-full">
+            <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="https://dummyimage.com/1200x500" alt="step">
+          </div>
+        </div>
+      </section> -->
+
+
+     
+
+    
+      <div class="flex items-center justify-center">
+        <div class="m-2 max-w-5xl items-center">
+            <div class="flex flex-col items-center"> <img class="flex m-1" src="Copy of Copy of Copy of career corps - logo.png" height = "400px" width = "200px" />
+                <div class="m-2"> <a href="https://www.linkedin.com/company/career-corps/"
+                        class="w-9 h-10 text-center border-current border-2 text-violet-600 hover:text-black pt-1 inline-block"><i
+                            class="fa fa-linkedin m-2"></i></a> <a href="https://twitter.com/careercorps_IN"
+                        class="w-9 h-10 text-center border-current border-2 text-blue-600 hover:text-black pt-1 inline-block"><i
+                            class="fa fa-twitter m-2"></i></a> <a href="https://instagram.com/career.corps?igshid=ZDdkNTZiNTM="
+                        class="w-9 h-10 text-center border-current border-2 text-rose-600 hover:text-black pt-1 inline-block"><i
+                            class="fa fa-instagram m-2"></i></a> <a href="https://mail.google.com/mail/u/?authuser=support@careercorps.tech"
+                        class="w-9 h-10 text-center border-current border-2 text-red-600 hover:text-black pt-1 inline-block"><i
+                            class="fa fa-google m-2"></i></a> </div>
+                
+                <div class="text-gray-500 font-medium mt-4 text-xs"> Copyright © 2023. All rights reserved by <a href="#"
+                        class="text-blue-600">Career Corps</a> </div>
+            </div>
+        </div>
+        </div>
+        <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+       
+</body>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn1 = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn1.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < 8; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > 8) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+</html>
